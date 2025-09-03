@@ -76,6 +76,7 @@ TEMPLATES = [
 # Dev: autoriser le port Vite
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://bugs-app-frontend.vercel.app/"
 ]
 
 # Demo: API publique sans auth/CSRF
